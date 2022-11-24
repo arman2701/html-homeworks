@@ -1,0 +1,19 @@
+figure {
+border: 3px solid blue;
+display: flex;
+flex-flow: column;
+padding: 12px;
+max-width: 530px;
+margin: auto;
+}
+
+img {
+max-width: 500px;
+max-height: 500px;
+}
+
+figcaption {
+background-color: red;
+color: green;
+padding: 3px;
+}
