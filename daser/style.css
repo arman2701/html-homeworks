@@ -1,0 +1,33 @@
+.userText{
+       color: red;
+       background: yellow;
+       font-size: 15px;
+}
+
+#userId{
+       color: red;
+       background: yellow;
+       font-size: 15px;
+}
+#pageHeader{
+   background: rgb(245, 188, 134);
+   font-size: 19px;
+}
+#message1{
+   color:rgb(1, 15, 90);
+   background-color: rgb(209, 223, 244);
+   font-size: 20px;
+}
+#message2{
+   color:rgb(1, 15, 90);
+   background-color: rgb(209, 223, 244);
+   font-size: 20px;
+}
+div {
+ border: 1px solid black;
+ margin-top: 100px;
+ margin-bottom: 100px;
+ margin-right: 150px;
+ margin-left: 80px;
+ background-color: lightblue;
+}
