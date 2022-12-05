@@ -1,33 +1,76 @@
-.userText{
-       color: red;
-       background: yellow;
-       font-size: 15px;
+@import 
+url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400
+;500;600;700&display=swap');
+
+:root{
+   --green:#16a085;
+   --black:#444;
+   --light-color:#777;
+   --box-shadow:.5rem .5rem 0 rgba(22, 160, 133, .2);
+   --text-shadow:04rem .4rem 0 rgba(0, 0, 0, .2);
+   --border:.2rem solid var(--green);
 }
 
-#userId{
-       color: red;
-       background: yellow;
-       font-size: 15px;
+*{
+   font-family: 'Poppins', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-transform: capitalize;
+    transition: all .2s ease-out;
+    text-decoration: none;
 }
-#pageHeader{
-   background: rgb(245, 188, 134);
-   font-size: 19px;
+
+html{
+   font-size: 62.5%;
+   overflow-x: hidden;
+   scroll-padding-top: 7rem;
+   scroll-behavior: smooth;
 }
-#message1{
-   color:rgb(1, 15, 90);
-   background-color: rgb(209, 223, 244);
-   font-size: 20px;
+
+section{
+   padding: 2rem 9%;
 }
-#message2{
-   color:rgb(1, 15, 90);
-   background-color: rgb(209, 223, 244);
-   font-size: 20px;
+
+section:nth-chile(even){
+   background: #f5f5f5;
 }
-div {
- border: 1px solid black;
- margin-top: 100px;
- margin-bottom: 100px;
- margin-right: 150px;
- margin-left: 80px;
- background-color: lightblue;
+.heading{
+
+   text-align: center;
+   padding-bottom: 2rem;
+   text-shadow: var(--text-shadow);
+   text-transform: uppercase;
+   color:var(--black);
+   font-size: 5rem;
+   letter-spacing: .4rem;
+}
+.heading span{
+   text-transform: uppercase;
+   color:var(--green);
+}
+.btn{
+   display: inline-block;
+   margin-top: 1rem;
+   padding: .5rem;
+   padding-left: 1rem;
+   border:var(--border);
+   border-radius: .5rem;
+   box-shadow: var(--box-shadow);
+   color:var(--green);
+   cursor: pointer;
+   font-size: 1.7rem;
+   background: #fff;
+}
+.btn span{
+   padding:.7rem 1rem;
+   border-radius: .5rem;
+   background: var(--green);
+   color:#fff;
+   margin-left: .5rem;
+}
+
+.btn:hover{
+   background: var(--green);
+   color: #fff;
 }
